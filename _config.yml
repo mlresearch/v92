@@ -1,0 +1,55 @@
+---
+booktitle: Proceedings of 2018 ACM SIGKDD Workshop on Causal Disocvery
+publisher: PMLR
+series: Proceedings of Machine Learning Research
+volume: 92
+published: 2018-08-09
+year: '2018'
+shortname: CD
+url: http://proceedings.mlr.press
+start: 2018-08-20
+end: 2018-08-20
+layout: proceedings
+id: CD2018
+month: 0
+cycles: false
+editor: []
+title: Proceedings of Machine Learning Research
+description: |
+  Proceedings of 2018 ACM SIGKDD Workshop on Causal Disocvery
+    Held in London, UK on 20 August 2018
+
+  Published as Volume 92 by the Proceedings of Machine Learning Research on 09 August 2018.
+
+  Volume Edited by:
+
+  Series Editors:
+    Neil D. Lawrence
+    Mark Reid
+date_str: 20 Aug
+baseurl: "/v92"
+twitter_username: MLResearchPress
+github_username: mlresearch
+markdown: kramdown
+permalink: "/:title.html"
+github:
+  edit: true
+  repository: v92
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
+email: ''
+conference:
+  name: Proceedings of 2018 ACM SIGKDD Workshop on Causal Disocvery
+  url: 
+  location: London, UK
+  dates:
+  - 2018-08-20
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+# Site settings
+# Auto generated from /Users/mreid/mlresearch/v92/bibliographyCD2018.bib

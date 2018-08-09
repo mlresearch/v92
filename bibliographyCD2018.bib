@@ -1,0 +1,132 @@
+
+@Proceedings{CD2018,
+  booktitle = {Proceedings of 2018 ACM SIGKDD Workshop on Causal Disocvery},
+  editor =    {Thuc Duy Le, Kun Zhang, Emre K{\i}c{\i}man, Aapo Hyv\"{a}rinen and Lin Liu},
+  publisher = {PMLR},
+  series =    {Proceedings of Machine Learning Research},
+  volume =    {92},
+  published = {20180809},
+  year = {2018},
+  shortname={CD},
+  url={http://nugget.unisa.edu.au/CD2018/},
+  start={20180820},
+  end={20180820},
+  address={London, UK}
+}
+
+
+
+
+
+
+
+
+@InProceedings{le18,
+  title = 	 {Preface: The 2018 ACM SIGKDD Workshop on Causal Discovery },
+  author = 	 {Le, Thuc Duy and Zhang, Kun and K{\i}c{\i}man, Emre and  Hyv\"{a}rinen, Aapo and Liu, Lin},
+  booktitle = 	 {Proceedings of the 2018 KDD Workshop on Causal Discovery},
+  pages = 	 {1--3},
+  year = 	 {2018},
+  editor = 	 {Le, Thuc Duy and Zhang, Kun and K{\i}c{\i}man, Emre and  Hyv\"{a}rinen, Aapo and Liu, Lin},
+  volume = 	 {92},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {},
+  month = 	 {Aug},
+  publisher = 	 {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v92/le18/le18.pdf},
+  url = 	 {http://proceedings.mlr.press/v92/le18.html},
+  abstract = 	 {Preface to the 2018 KDD Workshop on Causal Discovery (CD18)}
+}
+
+
+
+
+
+@InProceedings{zheng18,
+  title = 	 {Automated Identification of Causal Moderators in Time-Series Data},
+  author = 	 {Zheng, Min and Claassen, Jan and Kleinberg, Samantha},
+  booktitle = 	 {Proceedings of the 2018 KDD Workshop on Causal Discovery},
+  pages = 	 {4--22},
+  year = 	 {2018},
+  editor = 	 {Le, Thuc Duy and Zhang, Kun and K{\i}c{\i}man, Emre and  Hyv\"{a}rinen, Aapo and Liu, Lin},
+  volume = 	 {92},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {},
+  month = 	 {Aug},
+  publisher = 	 {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v92/zheng18/zheng.pdf},
+  url = 	 {http://proceedings.mlr.press/v92/zheng.html},
+  abstract = 	 {Causal inference is often taken to mean finding links between individual variables. However in many real-world cases, such as in biological systems, relationships are more complex, with groups of factors needed to produce an effect, or some factors only modifying other relationships rather than producing outcomes alone. For instance, weight may alter the efficacy of a drug without causing side effects itself. Such moderating factors may change the timing, intensity, or probability of a causal relationship. Distinguishing moderators from genuine causes can lead to more effective medical interventions, and better strategies for bringing about a desired effect, since a moderator alone is ineffective. However, there have not yet been algorithms to automatically infer moderators in a large-scale automated way, and they cannot be easily read off from causal graphs. We introduce a set of temporal logic rules to automatically identify the asymmetric roles of causes and moderators in a computationally efficient manner. Experiments on simulated data demonstrate that even in challenging cases we can find moderators and avoid confounding, and on real neurological ICU data we show how the approach can find more descriptive and meaningful relationships than the state of the art.}
+}
+
+
+@InProceedings{malinsky18,
+	title = 	 {Causal Structure Learning from Multivariate Time Series in Settings with Unmeasured Confounding},
+	author = 	 {Malinsky, Daniel and Spirtes, Peter},
+	booktitle = 	 {Proceedings of the 2018 KDD Workshop on Causal Discovery},
+	pages = 	 {23--47},
+	year = 	 {2018},
+	editor = 	 {Le, Thuc Duy and Zhang, Kun and K{\i}c{\i}man, Emre and  Hyv\"{a}rinen, Aapo and Liu, Lin},
+	volume = 	 {92},
+	series = 	 {Proceedings of Machine Learning Research},
+	address = 	 {},
+	month = 	 {Aug},
+	publisher = 	 {PMLR},
+	pdf = 	 {http://proceedings.mlr.press/v92/malinsky18/malinsky18.pdf},
+	url = 	 {http://proceedings.mlr.press/v92/malinsky.html},
+	abstract = 	 {We present constraint-based and (hybrid) score-based algorithms for causal structure learning that estimate dynamic graphical models from multivariate time series data. In contrast to previous work, our methods allow for both ``contemporaneous'' causal relations and arbitrary unmeasured (``latent'') processes influencing observed variables. The performance of our algorithms is investigated with simulation experiments and we briefly illustrate the proposed approach on some real data from international political economy.}
+}
+
+
+
+@InProceedings{raghu18,
+	title = 	 {Evaluation of Causal Structure Learning Methods on Mixed Data Types},
+	author = 	 {Raghu, Vineet K. and Poon, Allen and Benos, Panayiotis V.},
+	booktitle = 	 {Proceedings of the 2018 KDD Workshop on Causal Discovery},
+	pages = 	 {48--65},
+	year = 	 {2018},
+	editor = 	 {Le, Thuc Duy and Zhang, Kun and K{\i}c{\i}man, Emre and  Hyv\"{a}rinen, Aapo and Liu, Lin},
+	volume = 	 {92},
+	series = 	 {Proceedings of Machine Learning Research},
+	address = 	 {},
+	month = 	 {Aug},
+	publisher = 	 {PMLR},
+	pdf = 	 {http://proceedings.mlr.press/v92/raghu18/raghu18.pdf},
+	url = 	 {http://proceedings.mlr.press/v92/raghu18.html},
+	abstract = 	 {Causal structure learning algorithms are very important in many fields, including biomedical sciences, because they can uncover the underlying causal network structure from observational data. Several such algorithms have been developed over the years, but they usually operate on datasets of a single data type: continuous or discrete variables only. More recently, we and others have proposed new causal structure learning algorithms for mixed data types. However, to-date there is no study that critically evaluates these methods' performance. In this paper, we provide the first extensive empirical evaluation of several popular causal structure learning methods on mixed data types and in a variety of parameter settings and sample sizes. Our results serve as a guide as to which method performs the best in a given context, and as such they are a first step towards a ``method selection guide'' for those running causal modeling methods on real life datasets.}
+}
+
+
+
+
+@InProceedings{chaudhary18,
+	title = 	 {Causal Relationship Prediction with Continuous Additive Noise Models },
+	author = 	 {Chaudhary, Mandar and Samatova, Nagiza F.},
+	booktitle = 	 {Proceedings of the 2018 KDD Workshop on Causal Discovery},
+	pages = 	 {66--81},
+	year = 	 {2018},
+	editor = 	 {Le, Thuc Duy and Zhang, Kun and K{\i}c{\i}man, Emre and  Hyv\"{a}rinen, Aapo and Liu, Lin},
+	volume = 	 {92},
+	series = 	 {Proceedings of Machine Learning Research},
+	address = 	 {},
+	month = 	 {Aug},
+	publisher = 	 {PMLR},
+	pdf = 	 {http://proceedings.mlr.press/v92/chaudhary18/chaudhary18.pdf},
+	url = 	 {http://proceedings.mlr.press/v92/chaudhary18.html},
+	abstract = 	 {We consider the problem of learning causal relationships in continuous additive noise models (ANM) from a machine learning perspective. Causal discovery from ANMs has primarily focused on testing for independence between the residuals and the true parent set of a variable. We posit that this unique association between residuals and the true parent set can be leveraged with kernel mean embedding to predict causal relationships in observational data. In particular, we propose a framework that finds useful patterns and constructs the causal graph by predicting the true parent set of each variable. We present an analysis of the patterns from kernel mean embeddings that explains their discriminative ability in predicting causal relationships. Finally, we perform simulations that demonstrate the effectiveness of our method.}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
