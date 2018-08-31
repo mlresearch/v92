@@ -1,5 +1,5 @@
 ---
-booktitle: Proceedings of 2018 ACM SIGKDD Workshop on Causal Disocvery
+booktitle: Proceedings of 2018 ACM SIGKDD Workshop on Causal Discovery
 publisher: PMLR
 series: Proceedings of Machine Learning Research
 volume: 92
@@ -16,7 +16,7 @@ cycles: false
 editor: []
 title: Proceedings of Machine Learning Research
 description: |
-  Proceedings of 2018 ACM SIGKDD Workshop on Causal Disocvery
+  Proceedings of 2018 ACM SIGKDD Workshop on Causal Discovery
     Held in London, UK on 20 August 2018
 
   Published as Volume 92 by the Proceedings of Machine Learning Research on 09 August 2018.
@@ -43,7 +43,7 @@ display:
   comments: false
 email: ''
 conference:
-  name: Proceedings of 2018 ACM SIGKDD Workshop on Causal Disocvery
+  name: Proceedings of 2018 ACM SIGKDD Workshop on Causal Discovery
   url: 
   location: London, UK
   dates:
