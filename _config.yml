@@ -14,7 +14,17 @@ layout: proceedings
 id: CD2018
 month: 0
 cycles: false
-editor: []
+editor:
+- given: Thuc Duy
+  family: Le
+- given: Kun
+  family: Zhang
+- given: Emre
+  family: Kıcıman
+- given: Aapo
+  family: Hyvärinen
+- given: Lin
+  family: Liu
 title: Proceedings of Machine Learning Research
 description: |
   Proceedings of 2018 ACM SIGKDD Workshop on Causal Discovery
@@ -23,6 +33,11 @@ description: |
   Published as Volume 92 by the Proceedings of Machine Learning Research on 09 August 2018.
 
   Volume Edited by:
+    Thuc Duy Le
+    Kun Zhang
+    Emre Kıcıman
+    Aapo Hyvärinen
+    Lin Liu
 
   Series Editors:
     Neil D. Lawrence
