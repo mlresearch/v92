@@ -15,6 +15,11 @@ For details of what is required to submit a proceedings please check http://proc
 Published as Volume 92 by the Proceedings of Machine Learning Research on 09 August 2018.
 
 Volume Edited by:
+  * Thuc Duy Le
+  * Kun Zhang
+  * Emre Kıcıman
+  * Aapo Hyvärinen
+  * Lin Liu
 
 Series Editors:
   * Neil D. Lawrence
